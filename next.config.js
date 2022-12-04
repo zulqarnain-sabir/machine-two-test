@@ -1,3 +1,10 @@
+require("dotenv").config({ path: `./.env.${process.env.NODE_ENV}` })
+
 module.exports = {
-  reactStrictMode: true,
+  env: {},
+  trailingSlash: true,
+  webpack5: true,
+  images: {
+    domains: ["mixkit.imgix.net"],
+  },
 }

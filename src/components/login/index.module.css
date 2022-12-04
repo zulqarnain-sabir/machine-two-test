@@ -1,0 +1,39 @@
+.loginForm {
+  max-width: 100%;
+}
+.loginFormForgot {
+  float: right;
+}
+.loginFormButton {
+  width: 100%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  /* color: green; */
+  /* border: 1px solid; */
+  height: 100vh;
+}
+
+.centered {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27%;
+  min-height: 350px;
+  min-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* width: 100px;
+  height: 100px;
+  background-color: "red";
+  border: 1px solid; */
+}
+
+.innerContainer {
+  width: 100%;
+  padding: 2rem;
+}
